@@ -1,0 +1,154 @@
+.profileUser {
+    width: 35%;
+    max-width: 415px;
+    min-width: 260px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border: 1px solid #DDD;
+    background-color: #EDEDED;
+    transition: all ease 0.2s;
+}
+
+.profileUser--icons {
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+.profileUser--icon {
+    width: 24px;
+    height: 24px;
+    margin: 8px;
+    cursor: pointer;
+    transition: ease all 0.3s;
+    position: absolute;
+}
+
+.profileUser--head {
+    background-color: #00BfA5;
+    display: flex;
+    padding: 60px 15px 15px 15px;
+}
+.profileUser--backbutton {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.profileUser--headTitle {
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px;
+    flex: 1;
+    font-weight:500;
+    color: #FFF;
+    margin-left: 20px;
+}
+
+.profileUser--body {
+    flex: 1;
+    overflow-y: auto;
+}
+.profileUser--body::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+.profileUser--body::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.profileUser--avatar {
+    margin: 28px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profileUser--avatarImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+    transition-delay: 0.2s;
+}
+
+.profileUser--infoArea {
+    position: relative;
+    transition: all ease 0.3s;
+    transition-delay: 0.2s;
+}
+
+
+.profileUser--nameArea {
+    background-color: white;
+    height: auto;
+    padding: 12px 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.profileUser--nameArea--title {
+    font-size: 14px;
+    color: #009688;
+}
+.profileUser--nameArea--toggleName {
+    display: flex;
+    margin-top: 15px;
+}
+.profileUser--nameArea--name {
+    width: 100%;
+    font-size: 17px;
+    color: #4A4A4A;
+    padding: 8px 0;
+    font-family: 'Segoe UI', Helvetica Neue, Helvetica, Lucida Grande, Arial;
+    display: flex;
+    align-items: center;
+}
+.profileUser--input {
+    width: 100%;
+    border: none;
+    outline: 0;
+    background-color: transparent;
+    font-size: 17px;
+    color: #4A4A4A;
+    padding: 8px 0 8px;
+    
+    font-family: 'Segoe UI', Helvetica Neue, Helvetica, Lucida Grande, Arial;
+}
+
+.profileUser--warning {
+    font-size: 14px;
+    color: #00000073;
+    padding: 14px 20px 28px 30px;
+}
+
+.profileUser--messageArea {
+    height: auto;
+    padding: 12px 30px;
+    margin-bottom: 10px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.profileUser--messageArea--title {
+    font-size: 14px;
+    color: #009688;
+}
+.profileUser--messageArea--toggleMessage {
+    display: flex;
+    margin: 15px 0 8px;
+}
+.profileUser--messageArea--message {
+    font-size: 17px;
+    color: #4A4A4A;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
